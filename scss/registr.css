@@ -1,0 +1,106 @@
+@charset "UTF-8";
+/*Авторизация*/
+strong {
+  color: #036e99;
+  font-size: 24px;
+}
+
+.content1 {
+  display: block;
+  width: 1320px;
+  margin: 10px auto;
+  text-align: justify;
+}
+
+.user_log {
+  font-size: 18px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: justify;
+}
+
+.log_of a {
+  margin-left: 20px;
+  font-size: 22px;
+  text-decoration: none;
+}
+
+.log_of a:hover {
+  text-decoration: underline;
+}
+
+.registr a {
+  font-size: 18px;
+  text-decoration: none;
+}
+
+.registr {
+  margin: 50px auto;
+  width: 400px;
+  padding: 20px;
+  border: 1px solid black;
+  background: #7e7878;
+  border-radius: 10px;
+  line-height: 30px;
+  text-align: center;
+}
+
+.registr label {
+  color: #470f01;
+  font-size: 18px;
+}
+
+.registr .input-group {
+  margin: 10px 0px 10px 0px;
+}
+
+.registr .input-group label {
+  display: block;
+  text-align: left;
+  margin: 3px;
+}
+
+.registr .input-group input {
+  height: 35px;
+  width: 350px;
+  padding: 5px 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid gray;
+}
+
+.btn {
+  padding: 10px;
+  font-size: 15px;
+  color: white;
+  background: #007bff;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-top: 15px;
+}
+
+.btn:hover {
+  text-decoration: none;
+  background: #1962e9;
+  color: white;
+}
+
+.registr .error {
+  width: 92%;
+  margin: 0px auto;
+  padding: 10px;
+  border: 1px solid #a94442;
+  color: #a94442;
+  background: #f2dede;
+  border-radius: 5px;
+  text-align: left;
+}
+
+.registr .success {
+  color: #3c763d;
+  background: #dff0d8;
+  border: 1px solid #3c763d;
+  margin-bottom: 20px;
+}
